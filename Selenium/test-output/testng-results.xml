@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61290" started-at="2020-02-18T01:47:15Z" finished-at="2020-02-18T01:48:16Z">
+  <suite name="Default suite" duration-ms="87" started-at="2020-02-24T01:30:21Z" finished-at="2020-02-24T01:30:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61290" started-at="2020-02-18T01:47:15Z" finished-at="2020-02-18T01:48:16Z">
-      <class name="com.selenium.testng.BranchCreation">
-        <test-method status="PASS" signature="appLaunch()[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="appLaunch" is-config="true" duration-ms="15269" started-at="2020-02-18T07:17:00Z" finished-at="2020-02-18T07:17:15Z">
+    <test name="Default test" duration-ms="87" started-at="2020-02-24T01:30:21Z" finished-at="2020-02-24T01:30:21Z">
+      <class name="com.selenium.testng.SampleTestNgTest">
+        <test-method status="PASS" signature="gitSample()[pri:0, instance:com.selenium.testng.SampleTestNgTest@6fffcba5]" name="gitSample" duration-ms="35" started-at="2020-02-24T07:00:21Z" finished-at="2020-02-24T07:00:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- appLaunch -->
-        <test-method status="PASS" signature="appLogin()[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="appLogin" is-config="true" duration-ms="1571" started-at="2020-02-18T07:17:15Z" finished-at="2020-02-18T07:17:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appLogin -->
-        <test-method status="PASS" signature="branchCreation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="branchCreation" duration-ms="34339" started-at="2020-02-18T07:17:16Z" data-provider="getData" finished-at="2020-02-18T07:17:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Qedge1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ameerpet]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- branchCreation -->
-        <test-method status="PASS" signature="branchCreation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="branchCreation" duration-ms="22567" started-at="2020-02-18T07:17:51Z" data-provider="getData" finished-at="2020-02-18T07:18:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Qedge2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ameerpet]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- branchCreation -->
-        <test-method status="PASS" signature="appLogout()[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="appLogout" is-config="true" duration-ms="2749" started-at="2020-02-18T07:18:13Z" finished-at="2020-02-18T07:18:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appLogout -->
-        <test-method status="PASS" signature="appClose()[pri:0, instance:com.selenium.testng.BranchCreation@6ad5c04e]" name="appClose" is-config="true" duration-ms="65" started-at="2020-02-18T07:18:16Z" finished-at="2020-02-18T07:18:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appClose -->
-      </class> <!-- com.selenium.testng.BranchCreation -->
+        </test-method> <!-- gitSample -->
+      </class> <!-- com.selenium.testng.SampleTestNgTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
