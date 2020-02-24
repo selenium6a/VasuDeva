@@ -7,13 +7,15 @@ public class AdditionTest
 	{
 		//Program to perform addition of two numbers
 		
-		int a=20;
+		//int a=20;
 		
-		int b=30;
+		//int b=30;
 		
-		int sum=a+b;
+		//int sum=a+b;
 		
-		System.out.println(sum);
+		//System.out.println(sum);
+		
+		System.out.println(20+30);
 
 	}
 
