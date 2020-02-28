@@ -150,6 +150,7 @@ public class PrimusBank
 		//app.appClose();
 		
 		// Modularity Framework
+		
 		//appLaunch
 		app.appLaunch("Http://PrimusBank.Qedgetech.com");
 		app.appClose();

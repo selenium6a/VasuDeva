@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testng.ValidationTest">
+      <class name="com.selenium.excel.keywordriven">
         <methods>
-          <include name="validation"/>
+          <include name="keywordprg"/>
         </methods>
-      </class> <!-- com.selenium.testng.ValidationTest -->
+      </class> <!-- com.selenium.excel.keywordriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
